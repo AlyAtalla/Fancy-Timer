@@ -1,0 +1,30 @@
+.pomodoro-app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.timer-display {
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.timer-controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#time-left {
+  color: #333;
+  font-weight: bold;
+}
